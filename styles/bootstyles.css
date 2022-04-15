@@ -1,0 +1,95 @@
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  font-size: 12pt;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 14pt;
+  color:rgb(243, 101, 160);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.unorderlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(243, 101, 160);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(252, 164, 200);
+  }
+
+.common {
+       position:relative
+}
+
+.header {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+
+.mainbody {
+  top: 105px;
+  bottom: 64px;
+  left: 5px;
+  right: 5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  height: 100px;
+  left: 5px;
+  right: 5px;
+  background-color:rgb(243, 101, 160);
+  font-size: 10pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+}
+a:visited {
+  color:rgb(255, 255, 255);
+}
+a:hover {
+  color:rgb(159, 222, 93)
+}
+
+.subheader {
+  float: right;
+}
+
